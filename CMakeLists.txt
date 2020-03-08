@@ -12,6 +12,7 @@ file(GLOB HEADERS "include/libp2p/multiformats/*.hpp"
 
 add_library( libp2p
         src/multiformats/unsigned_varint.cpp
+        src/multiformats/multibase.cpp
         ${HEADERS}
 )
 

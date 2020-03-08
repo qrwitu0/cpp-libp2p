@@ -11,7 +11,7 @@ namespace libp2p { namespace multiformats {
 
 
       class unsigned_varint {
-
+      public:
          explicit unsigned_varint(uint64_t number);
 
          explicit unsigned_varint(nonstd::span<const uint8_t> bytes);
