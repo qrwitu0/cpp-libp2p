@@ -1,5 +1,5 @@
 
-#include <multiformats/multihash.hpp>
+#include "../include/multiformats/multihash.hpp"
 
 
 namespace multiformats::multihash {
@@ -13,20 +13,20 @@ namespace multiformats::multihash {
       name_to_code = {
             {"identity",      identity},
             {"sha1",          sha1},
-            {"sha2_256",      sha2_256},
-            {"sha2_512",      sha2_512},
-            {"sha3_512",      sha3_512},
-            {"sha3_384",      sha3_384},
-            {"sha3_256",      sha2_256},
-            {"sha3_224",      sha3_224},
-            {"shake_128",     shake_128},
-            {"shake_256",     shake_256},
-            {"keccak_224",    keccak_224},
-            {"keccak_256",    keccak_256},
-            {"keccak_384",    keccak_384},
-            {"keccak_512",    keccak_512},
-            {"murmur3_128",   murmur3_128},
-            {"dbl_sha2_256",  dbl_sha2_256},
+            {"sha2-256",      sha2_256},
+            {"sha2-512",      sha2_512},
+            {"sha3-512",      sha3_512},
+            {"sha3-384",      sha3_384},
+            {"sha3-256",      sha2_256},
+            {"sha3-224",      sha3_224},
+            {"shake-128",     shake_128},
+            {"shake-256",     shake_256},
+            {"keccak-224",    keccak_224},
+            {"keccak-256",    keccak_256},
+            {"keccak-384",    keccak_384},
+            {"keccak-512",    keccak_512},
+            {"murmur3-128",   murmur3_128},
+            {"dbl_sha2-256",  dbl_sha2_256},
             {"x11",           x11},
             {"md5",           md5}
       };
@@ -34,20 +34,20 @@ namespace multiformats::multihash {
       code_to_name = {
             {identity,      "identity"},
             {sha1,          "sha1"},
-            {sha2_256,      "sha2_256"},
-            {sha2_512,      "sha2_512"},
-            {sha3_512,      "sha3_512"},
-            {sha3_384,      "sha3_384"},
-            {sha3_256,      "sha2_256"},
-            {sha3_224,      "sha3_224"},
-            {shake_128,     "shake_128"},
-            {shake_256,     "shake_256"},
-            {keccak_224,    "keccak_224"},
-            {keccak_256,    "keccak_256"},
-            {keccak_384,    "keccak_384"},
-            {keccak_512,    "keccak_512"},
-            {murmur3_128,   "murmur3_128"},
-            {dbl_sha2_256,  "dbl_sha2_256"},
+            {sha2_256,      "sha2-256"},
+            {sha2_512,      "sha2-512"},
+            {sha3_512,      "sha3-512"},
+            {sha3_384,      "sha3-384"},
+            {sha3_256,      "sha2-256"},
+            {sha3_224,      "sha3-224"},
+            {shake_128,     "shake-128"},
+            {shake_256,     "shake-256"},
+            {keccak_224,    "keccak-224"},
+            {keccak_256,    "keccak-256"},
+            {keccak_384,    "keccak-384"},
+            {keccak_512,    "keccak-512"},
+            {murmur3_128,   "murmur3-128"},
+            {dbl_sha2_256,  "dbl-sha2-256"},
             {x11,           "x11"},
             {md5,           "md5"}
       };
